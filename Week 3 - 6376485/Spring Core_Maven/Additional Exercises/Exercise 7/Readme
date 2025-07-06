@@ -1,0 +1,79 @@
+# 📚 Spring Core DI – Exercise 7
+
+## 🎯 Objective
+
+Implement both **constructor-based** and **setter-based** dependency injection in a Spring Core application using **XML configuration**.
+
+---
+
+## 🛠️ Technologies Used
+
+- ☕ Java  
+- 🌱 Spring Core Framework  
+- 🧾 XML for Bean Configuration  
+
+---
+
+## 📁 Project Layout
+
+```
+LibraryManagement/
+│
+├── code/        → Java source files, `applicationContext.xml`, and `pom.xml`
+├── output/      → Console screenshots or result captures
+└── README.md    → This documentation
+```
+
+---
+
+### 🔧 Setup Instructions
+
+1. **Open the Project**  
+   Launch your IDE (IntelliJ, Eclipse, etc.) and load the `LibraryManagement` folder.
+
+2. **Verify Configuration**  
+   Inside `code/`, ensure the `applicationContext.xml` file includes:
+
+   - `<constructor-arg>` for constructor injection
+   - `<property>` for setter injection
+
+3. **Run the App**  
+   Run the main class located at:
+
+   ```
+   com.library.main.LibraryManagementApplication
+   ```
+
+---
+
+### 🖥️ Expected Output
+
+When configured and executed correctly, the console should display:
+
+```
+BookService: Performing operation...
+BookRepository: Book saved!
+```
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+- Bean creation and wiring via Spring's XML
+- Use of both constructor and setter injection
+- Clean separation of concerns using Service and Repository layers
+
+---
+
+### 📝 Notes
+
+- You can switch or test injection styles by modifying `applicationContext.xml`.
+- This exercise helps build a foundation for larger Spring applications.
+
+---
+
+## ✅ Tip
+
+To explore how Spring manages beans internally, try enabling debugging or add log statements inside constructors and setters.
+
+---
