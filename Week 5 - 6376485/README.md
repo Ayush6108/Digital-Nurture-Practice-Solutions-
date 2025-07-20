@@ -1,7 +1,7 @@
 
 # 🏦 Microservices Hands-On with Eureka Discovery & API Gateway
 
-This repository demonstrates how to build and run a **Spring Boot microservices architecture** using **Eureka Discovery Server** and **Spring Cloud API Gateway**. It includes multiple microservices, service registration, API routing, and a custom global filter for logging incoming requests.
+This repository demonstrates how to build and run a **Spring Boot microservices architecture** using **Eureka Discovery Server** and **Spring Cloud API Gateway**. It includes multiple microservices, service registration, API routing, and a custom global filter for logging incoming requestes.
 
 ## 📌 Project Objective
 
