@@ -3,7 +3,7 @@ This folder structure belongs to Week 4 of the Spring REST hands-on series, whic
 
 Each subfolder corresponds to a specific hands-on exercise, including working projects, code files, output screenshots, and documentation files.
 
-Below is the detailed structure of the Week 4 repository:
+Below is the detailed structure of the Week 4 repository
 
 <pre>📁 week-4
 └── 📁 spring-rest-using-spring-boot-3
